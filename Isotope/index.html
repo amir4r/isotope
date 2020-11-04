@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="portfolio-area">
+        <div class="container">
+            <div class="row">
+                <div class="btn button-group filter-button-group">
+                    <button data-filter="*">show all</button>
+                    <button data-filter=".metal">metal</button>
+                    <button data-filter=".transition">transition</button>
+                    <button data-filter=".alkali, .alkaline-earth">alkali & alkaline-earth</button>
+                    <button data-filter=":not(.transition)">not transition</button>
+                    <button data-filter=".metal:not(.transition)">metal but not transition</button>
+                </div>
+            </div>
+            <div class="row portfolio-active">
+                <div class="col-md-4 portfolio-item metal">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-aleksandar-pasaric-325185.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item transition">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-arun-thomas-1156684.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item transition">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-aleksandar-pasaric-325185.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item metal">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-arun-thomas-1156684.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item transition">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-jeremy-bishop-2422915.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item transition">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-arun-thomas-1156684.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item metal">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-aleksandar-pasaric-325185.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item transition">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-aleksandar-pasaric-325185.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item transition">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-aleksandar-pasaric-325185.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item metal">
+                    <div class="portfolio-single mb-3">
+                        <img src="images/pexels-aleksandar-pasaric-325185.jpg" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="isotope.pkgd.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
